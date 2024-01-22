@@ -9,3 +9,10 @@
   <img width="807" alt="Screenshot 2024-01-22 at 14 29 39" src="https://github.com/AbdennourHsn/AutoCar/assets/119530347/948fd6ae-a639-4f66-872d-6c1e4821418a">
 </div>
 
+**Objectives**
+
+Establish a company (user) profile
+Enable users to create personalized showrooms; these showrooms are Unity 3D environments where users can showcase their car models
+Upload car models to the environment
+Edit the environment"
+
