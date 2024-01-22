@@ -10,9 +10,12 @@
 </div>
 
 **Objectives**
+- **Establish a company (user) profile** 
 
-Establish a company (user) profile
-Enable users to create personalized showrooms; these showrooms are Unity 3D environments where users can showcase their car models
-Upload car models to the environment
-Edit the environment"
+- **Enable users to create personalized showrooms; these showrooms are Unity 3D environments where users can showcase their car models**
+
+- **Upload car 3D models to the environment** 
+- **Edit the environment** 
+
+
 
