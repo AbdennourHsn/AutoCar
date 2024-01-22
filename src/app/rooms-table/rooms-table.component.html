@@ -1,0 +1,53 @@
+<section class="intro">
+    <div class="bg-image h-100" style="background-color: #ffffff;">
+      <div class="mask d-flex align-items-center h-100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="card shadow-2-strong" style="background-color: #ffffff; border: 0;">
+                <div class=" " >
+                    <div class="d-flex align-items-center mb-3 pb-1">
+                        <!-- <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i> -->
+                        <!-- <span class="h3 fw-bold mb-0">My Showrooms</span> -->
+                      </div>
+                  <div class="table-responsive">
+                    <table class="table table-borderless mb-0">
+                      <thead>
+                        <tr>
+
+                          <th scope="col">Image</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Owner</th>
+                          <th scope="col">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let room of roomsList ; let i =index ">
+
+                            <td>
+                                <div class="image-box">
+                                    <img src="assets/images/Capture.PNG" alt="Your Image">
+                                  </div>
+                            </td>
+                            <td>{{room.name}}</td>
+                            <td>{{room.name}}</td>
+                          <td>
+                            <button type="button" class="btn btn-danger btn-sm px-3 mx-1"  (click)="deleteRoom( room.id )" >
+                                <i class="fas fa-trash"></i> 
+                            </button>
+                            <button type="button" class="btn btn-success btn-sm px-3">
+                                <i class="fa-solid fa-eye" style="color: #000000;"></i>
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

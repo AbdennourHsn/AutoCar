@@ -1,0 +1,88 @@
+.card {
+    min-height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .card-body:hover {
+    transform: scale(1.06);
+    z-index: 0;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+  }
+  .custom-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #45a049;
+  }
+  
+  .use-button {
+    background-color: #00b112;
+  }
+  
+  .show-button {
+    background-color: #000;
+  }
+
+  .card-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .custom-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #060031;
+  }
+  
+  .use-button {
+    background-color: #0080ff;
+  }
+  
+  .show-button {
+    background-color: #0009ac;
+  }
+  
+  
+
+  
+  

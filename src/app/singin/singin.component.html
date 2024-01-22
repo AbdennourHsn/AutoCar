@@ -1,0 +1,96 @@
+
+<div class="container  h-100" style="background-color: #ffffff;">
+  <div class="row d-flex justify-content-center align-items-center h-100" >
+    <div class="col col-xl-12" >
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left column with fixed content -->
+        <div  *ngIf="isImgVisible" class="col-md-5 bg-light position-fixed vh-100"    style="background-image: url('https://plus.unsplash.com/premium_photo-1682124511924-dec955f230ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); background-size: cover;"  >
+          <!-- fixed content here -->
+          <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <h1 class="h2 fw-bold mb- px-1 pb-3 text-left" style="color: white;">Join Our Virtual Reality Revolution</h1>
+          </div>
+          
+        </div>
+        <!-- Right column with scrollable content -->
+        <div class="col-md-7 offset-md-5">
+          <div class="scrollable-content">
+            <!-- scrollable content here -->
+            <div class="container">
+              <div class="row justify-content-center p-5" >
+                <hr class="my-4 t-4" style="border-color: #ccc; border-width: 2px;">
+                <h1 class="h1 fw-bold mb-3 pb-3 pt-5 text-center" style="letter-spacing: 1px;">Join us</h1>
+                <hr class="my-4" style="border-color: #ccc; border-width: 2px;">
+          
+          <form #signin="ngForm" class="" style="margin-top: 20px;" (ngSubmit)="signIn()" autocomplete="off">
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                      <label class="form-label" for="form6Example1">First name</label>
+                    <input 
+                    name="firstName" [(ngModel)]="model.firstName" 
+                    type="text" id="form6Example1" class="form-control" />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                      <label class="form-label" for="form6Example2">Last name</label>
+                    <input 
+                    name="lastName" [(ngModel)]="model.LastName" 
+                    type="text" id="form6Example2" class="form-control" />
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Text input -->
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="form6Example3">Username</label>
+                  <input 
+                  name="userName" [(ngModel)]="model.userName"
+                  type="text" id="form6Example3" class="form-control" />
+              </div>
+                
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form6Example5">Email</label>
+              <input 
+              name="email" [(ngModel)]="model.email"
+              type="email" id="form6Example5" class="form-control" />
+            </div>
+          
+              
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form6Example5">Password</label>
+              <input 
+              name="password" [(ngModel)]="model.password"
+              type="password" id="form6Example5" class="form-control" />
+            </div>
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="form6Example3">Company name</label>
+                <input 
+                name="company" [(ngModel)]="model.Company"
+                type="text" id="form6Example3" class="form-control" />
+              </div>
+              
+            
+              <!-- Number input -->
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="form6Example6">Phone</label>
+                <input 
+                name="phone" [(ngModel)]="model.Phone" 
+                type="text" id="form6Example6" class="form-control" />
+              </div>
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4" style="background: black; border: 0;">Sign in</button>
+            </form>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>

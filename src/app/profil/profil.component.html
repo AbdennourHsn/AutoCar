@@ -1,0 +1,66 @@
+<!-- <div class="row">
+    <div class="col-4">
+      <div class="profile-img">
+        <img src="assets/images/profil.jpg" alt="" class="img-fluid rounded-circle" style="width: 200px ; height: 200px; border-style: solid;">
+      </div>
+    </div>
+    <div class="col-8">
+      <h3 class="profile-name">John Doe</h3>
+      <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div> -->
+  
+
+  <section class="intro">
+    <div class="bg-image h-100" style="background-color: #ffffff;">
+      <div class="mask d-flex align-items-center h-100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12" style="width: 80%;">
+              <div class="card shadow-2-strong" style="background-color: #ffffff; border: 0;">
+                <div class="container" style="padding-top: 100px; ">
+                    <!-- <h1 class="h3 fw-bold text-left " style="letter-spacing: 1px; ">Profil</h1> -->
+                    
+                    <div class="row  border-bottom-1">
+                        <div class="col-4">
+                          <div class="profile-img d-flex justify-content-center align-items-center">
+                            <img src="assets/images/profil.jpg" alt="" class="img-fluid rounded-circle" style="width: 200px; height: 200px; border-style: solid;">
+                          </div>
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                          <div class="d-flex align-items-center">
+                            <h1 class="profile-name">{{fullname}}</h1>
+                            <button type="button" class="edit-profile-btn"><i class="bi bi-pencil-square"></i></button>
+                          </div>
+                          <h5 class="profile-name"><i class="bi bi-person-workspace"></i>  {{username}}</h5>
+                          <h5 class="profile-name"><i class="bi bi-building"></i> Company name</h5>
+                          <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                      </div>
+
+                      <div class="navbar navbar-dark buttonsNav">
+                        <div class="container-fluid" style="padding: 0px;">
+                          <div class="d-flex justify-content-end">
+                            <div [ngClass]="{'clicked': button01}" (click)="button01Clicked()" class="button-container">
+                              <button class="btn-dark mx-2 btn-hover-white">
+                                <i class="bi bi-bank"></i> Showrooms
+                              </button>
+                            </div>
+                            
+                            <div [ngClass]="{'clicked': button02}" (click)="button02Clicked()" class="button-container ">
+                              <button class="btn-dark btn-hover-white">
+                                <i class="bi bi-car-front-fill "></i> Cars
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                      <app-rooms-table *ngIf="button01"></app-rooms-table>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+</div>
+</section>

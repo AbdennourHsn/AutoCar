@@ -1,0 +1,120 @@
+<!-- <app-navbar></app-navbar> -->
+<section class="intro">
+  <div class="bg-image h-100" style="background-color: #ffffff;">
+    <div class="mask d-flex align-items-center h-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12" style="width: 80%;">
+            <div class="card shadow-2-strong" style="background-color: #ffffff; border: 0;">
+              <div class=" " >
+
+<form (ngSubmit)="onSubmit()" #uploadForm="ngForm" enctype="multipart/form-data">
+  <div class="container" style="padding-top: 100px; margin: 50px;">
+    <h1 class="h3 fw-bold mb-3 pb-3 text-left" style="letter-spacing: 1px;">Car 3D Model Upload</h1>
+
+  <div class="row ">
+    <div class="col-md-6 ">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <div id="3d-container"  class=" d-flex justify-content-center align-items-center"  #modelContainer  style="height: 400px; width: 400px; border-style: dotted;">
+          <!-- Content for the square -->
+          
+        </div>
+        <div class="mt-2 d-flex justify-content-center align-items-center" style="width: 100%;">
+
+          <div class="bg-secondary mx-1" style="height: 80px; width: 80px;"></div>
+          <div class="bg-secondary mx-1" style="height: 80px; width: 80px;"></div>
+          <div class="bg-secondary mx-1" style="height: 80px; width: 80px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column justify-content-center ">
+      <p style="color: red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur beatae veniam pariatur dignissimos et alias neque! Possimus dolores adipisci ipsum, excepturi quas laudantium atque rerum, aliquid fuga doloremque ipsam dicta.</p>
+      <!-- <button class="btn btn-primary mb-2" style="height: 100px; width: 75%;">Upload Model of Car 3D</button> -->
+
+      <div>
+        <label for="formFileLg" class="form-label">Upload Car model (fbx,obj, zip)</label>
+        <input name="file" (change)="onFileChange($event)" required class="form-control form-control-lg" id="formFileLg" type="file">
+      </div>
+      <div class="mt-4">
+        <label for="formFileLg" class="form-label">Car's Name</label>
+        <input 
+        name="filePath" [(ngModel)]="Name" required
+        name="text"  required class="form-control form-control-lg" type="text" >
+      </div>
+
+
+      
+    </div>
+    </div>
+    </div>
+
+    <div class="form-outline mb-4">
+      <label class="form-label " for="form6Example7">Car descreption</label>
+    <textarea name="descreption" [(ngModel)]="descreption" required
+    name="descriptiom"  
+    class="form-control" id="form6Example7" rows="4"></textarea>
+  </div>  
+
+  <div class="mt-4">
+    <label class="form-label " for="form6Example7">Colors</label>
+    <!-- <button type="button" (click)="showPopup = true">Open Popup</button> -->
+    <app-color-popup *ngIf="showPopup" (closePopup)="showPopup = false"
+    (passColor)="AddColor($event)"
+    ></app-color-popup>
+    <!-- <ul>
+      <li *ngFor="let color of colors">
+        {{color.name}}
+      </li>
+    </ul> -->
+    <div class="mt-2 d-flex  align-items-center" style="width: 100%;">
+      <div  *ngFor="let color of colors" class=" mx-1 button"  [style.background-color]="color.RGB"></div>
+      <div class="mx-1 button" (click)="showPopup = true">
+        <i class="bi bi-plus"></i>
+      </div>
+      
+    </div>
+  <!-- <textarea 
+  name="descriptiom"  
+  class="form-control" id="form6Example7" rows="4"></textarea> -->
+</div>
+
+  <div class="mt-4">
+  <label for="formFileLg" class="form-label">Categorie</label>
+  <select 
+  name="categorie"  [(ngModel)]="categorie"
+  class="form-select form-select-lg" style=" font-size: 20px;">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+</div>
+  <div class="mt-4">
+    <label for="formFileLg" class="form-label">Price</label>
+    <input 
+    name="price" [(ngModel)]="price" 
+    name="text"  required class="form-control form-control-lg" type="number" >
+  </div>
+  <div class="mt-4">
+    <label for="formFileLg" class="form-label">Max Speed</label>
+    <input 
+    name="speed" [(ngModel)]="maxSpeed" 
+    name="text"  required class="form-control form-control-lg" type="number" >
+  </div>
+
+
+  <button type="submit" class="btn btn-primary btn-block mb-4" style="background: black; border: 0;">Save</button>
+
+</form>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+  

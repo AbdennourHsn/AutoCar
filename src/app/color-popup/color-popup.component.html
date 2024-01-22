@@ -1,0 +1,13 @@
+<div class="popup">
+    <h5>Choose color</h5>
+    <input [(ngModel)]="colorValue" type="color">
+    <br>
+    <label  for="">Color name</label>
+    <br>
+
+    <input [(ngModel)]="colorName"  class="form-control form-control-lg" type="text" >
+
+    <br>
+    <button (click)="AddColor()">Add</button>
+    <button (click)="close()">Close</button>
+  </div>

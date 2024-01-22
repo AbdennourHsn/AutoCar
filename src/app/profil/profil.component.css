@@ -1,0 +1,53 @@
+.edit-profile-btn {
+    background-color: white;
+    border: 0px solid black;
+    font-family: "Your Font", sans-serif; /* Replace "Your Font" with the desired font name */
+    /* Additional styling properties */
+    /* Add more styles as per your preference */
+  }
+
+  .border-bottom-1 {
+    border-bottom: 0px solid black;
+    margin: 50px 50px 0px 50px;
+    padding-bottom: 50px;
+    
+  }
+
+  
+  .btn-hover-white:hover {
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+  .btn-hover-white {
+    background-color: white;
+    color: black;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 8px 16px;
+    margin: 10px;
+  }
+  
+  .btn-hover-white:active,
+  .btn-hover-white:focus,
+  .btn-hover-white:focus-visible {
+    background-color: white;
+    border: none;
+  }
+
+  .button-container.clicked {
+    border-bottom: 4px solid black;
+  }
+  
+  .button-container.clicked button {
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+  .buttonsNav{
+    border-bottom: 1px solid black;
+    padding-bottom: 0px;
+  }
+  
+  

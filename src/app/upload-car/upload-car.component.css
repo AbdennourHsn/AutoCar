@@ -1,0 +1,16 @@
+.button {
+    height: 30px;
+    width: 30px;
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    border-radius: 5px; 
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
