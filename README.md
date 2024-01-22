@@ -5,7 +5,7 @@
 <hr>
 
 **An administration web interface for virtual showrooms seamlessly integrated with a VR application, empowering users to create showrooms, upload cars, and effectively manage their showroom environments.  :**
-<div style="align="center"">
+<div align="center">
   <img width="807" alt="Screenshot 2024-01-22 at 14 29 39" src="https://github.com/AbdennourHsn/AutoCar/assets/119530347/948fd6ae-a639-4f66-872d-6c1e4821418a">
 </div>
 
