@@ -75,7 +75,7 @@ https://github.com/AbdennourHsn/AutoCarApi
 
  Integrate Unity WebGL with an Angular application
  <div align="center">
-   ![unity_and_webgl](https://github.com/AbdennourHsn/AutoCar/assets/119530347/6ddc9e2c-868a-47a3-bbc4-9ee8974a52c8)
+![unity_and_webgl](https://github.com/AbdennourHsn/AutoCar/assets/119530347/0de476c6-00b6-465b-a798-ee00284f218b)
 
  </div >
 
