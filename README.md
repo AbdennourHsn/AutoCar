@@ -71,7 +71,7 @@ https://github.com/AbdennourHsn/AutoCarApi
 
 # Challenges
 
-**Intergate Unity projet (the 3D envirenement) to Angular**
+**1-Intergate Unity projet (the 3D envirenement) to Angular**
 
  Integrate Unity WebGL with an Angular application
  <div align="center">
@@ -81,7 +81,7 @@ https://github.com/AbdennourHsn/AutoCarApi
 
 
 
-**Display a 3D model in a window using Angular** 
+**2-Display a 3D model in a window using Angular** 
 
 To display a 3D model in a window using Angular, We use a 3D library. On this project we user one of the popular choices is **Three.js**.
 
