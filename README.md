@@ -75,4 +75,4 @@ https://github.com/AbdennourHsn/AutoCarApi
 
 **Display a 3D model in a window using Angular** 
 
-To display a 3D model in a window using Angular, We use a 3D library. On this project we user one of the popular choices is Three.js.
+To display a 3D model in a window using Angular, We use a 3D library. On this project we user one of the popular choices is **Three.js**.
