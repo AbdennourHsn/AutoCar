@@ -65,7 +65,7 @@ https://github.com/AbdennourHsn/AutoCarApi
 
 **Unity Envirenement (WebGl)**
 <div align="center">
-  <img width="814" alt="Screenshot 2024-01-22 at 14 49 58" src="https://github.com/AbdennourHsn/AutoCar/assets/119530347/345af44b-7f49-4131-948d-d23e646dc7b4">
+
 
 </div>
 
@@ -75,7 +75,6 @@ https://github.com/AbdennourHsn/AutoCarApi
 
  Integrate Unity WebGL with an Angular application
  <div align="center">
-![unity_and_webgl](https://github.com/AbdennourHsn/AutoCar/assets/119530347/0de476c6-00b6-465b-a798-ee00284f218b)
 
  </div >
 
@@ -86,4 +85,5 @@ https://github.com/AbdennourHsn/AutoCarApi
 To display a 3D model in a window using Angular, We use a 3D library. On this project we user one of the popular choices is **Three.js**.
 
 <div align="center">
+<img width="235" alt="Screenshot 2024-01-23 at 13 35 14" src="https://github.com/AbdennourHsn/AutoCar/assets/119530347/6a04efce-f8d3-451e-b008-0291fccc282c">
 </div>
