@@ -86,6 +86,4 @@ https://github.com/AbdennourHsn/AutoCarApi
 To display a 3D model in a window using Angular, We use a 3D library. On this project we user one of the popular choices is **Three.js**.
 
 <div align="center">
-  <img width="235" alt="Screenshot 2024-01-23 at 13 35 14" src="https://github.com/AbdennourHsn/AutoCar/assets/119530347/8358a5b6-afd2-4344-bcbb2e6be9b92067">
-
 </div>
